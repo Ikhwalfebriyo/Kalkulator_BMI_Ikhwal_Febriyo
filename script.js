@@ -16,7 +16,7 @@ document.getElementById("hitung").addEventListener("click", function () {
             status = "Obesity";
         }
 
-        document.getElementById("hasil").innerHTML = "Your BMI is" + bmi.toFixed(2) + ", which means you are " + status;
+        document.getElementById("hasil").innerHTML = "Your BMI is " + bmi.toFixed(2) + ", which means you are " + status;
     } else {
         alert("Masukkan berat dan tinggi badan yang valid.");
     }
